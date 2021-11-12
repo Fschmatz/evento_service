@@ -16,7 +16,7 @@ import java.util.Optional;
 @RestController
 @AllArgsConstructor
 @Transactional
-@RequestMapping("/Evento")
+@RequestMapping("/evento")
 public class EventoController {
 
     EventoRepository repository;
